@@ -34,7 +34,7 @@ public class MelonChart {
 		list.clear();
 		System.out.println("");
 	}
-
+	
 	private static void printList(List<Music> list) {
 		for(int i=0; i<list.size(); i++) { 
  			System.out.println((i+1) + ". " + list.get(i)); 
